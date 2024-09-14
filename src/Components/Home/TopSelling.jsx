@@ -23,13 +23,13 @@ const TopSelling = () => {
     return <div>Error: {error}</div>;
   }
   // Filter and display only new arrivals (e.g., first 5 products)
-  const newArrivals = products.slice(82, 87); // Modify this according to your logic for new arrivals
+  const newArrivals = products.slice(82, 88); // Modify this according to your logic for new arrivals
 
   return (
     <div className="py-6 px-6">
       <div className="container max-w-[1750px] m-auto py-[72px] flex flex-col gap-[55px] items-center">
         <h2 className="text-[48px] font-bold text-center">Top Selling</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 mx-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-8 mx-auto">
           {newArrivals.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}

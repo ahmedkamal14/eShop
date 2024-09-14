@@ -2,13 +2,7 @@ import { CiShop } from "react-icons/ci";
 import { AiOutlineDollar } from "react-icons/ai";
 import { CiGift } from "react-icons/ci";
 import { FaSackDollar } from "react-icons/fa6";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
-import { CiTwitter } from "react-icons/ci";
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Features from "@/Components/Features";
 
 const About = () => {
   const feat = [
