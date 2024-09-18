@@ -16,7 +16,6 @@ const Login = () => {
     e.preventDefault();
     setIsLoading(true);
     setError(null);
-
     try {
       // Dispatch login action
       const resultAction = await dispatch(login({ username, password }));

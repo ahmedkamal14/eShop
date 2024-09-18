@@ -11,6 +11,7 @@ import ClipLoader from "react-spinners/ClipLoader"; // Import the spinner
 import { FaPlus } from "react-icons/fa6";
 import { AiOutlineMinus } from "react-icons/ai";
 
+
 const SingleProduct = () => {
   const dispatch = useDispatch();
   const { id } = useParams();
